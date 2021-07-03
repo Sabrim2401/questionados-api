@@ -11,9 +11,11 @@ public class Respuesta {
     @Column(name="respuesta_id")
     private Integer respuestaId;
 
+    @Column(name="texto_respuesta")
     private String texto;
 
-    private boolean esCorrecta;
+    @Column(name="es_correcta")
+    private boolean esCorrecta;  //nose si va en la base de datos. verificar
 
     @ManyToOne
     @JoinColumn(name="pregunta_id",referencedColumnName = "pregunta_id")

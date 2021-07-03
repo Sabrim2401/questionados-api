@@ -10,7 +10,7 @@ import ar.com.ada.api.questionados.services.PreguntaService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import ar.com.ada.api.questionados.models.request.request.InfoPreguntaNueva;
+import ar.com.ada.api.questionados.models.request.InfoPreguntaNueva;
 import ar.com.ada.api.questionados.models.response.GenericResponse;
 
 
