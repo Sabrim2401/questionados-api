@@ -33,8 +33,8 @@ public class PreguntaController {
         return ResponseEntity.ok(service.buscarPreguntaPorId(id));
     }
 
-    @PostMapping ("/preguntas")
-    public ResponseEntity<?> crearPregunta(@RequestBody GenericResponse preguntaNueva){
+   @PostMapping ("/preguntas")
+    public ResponseEntity<?> crearPregunta(@RequestBody InfoPreguntaNueva preguntaNueva){
 
         GenericResponse respuesta = new GenericResponse();
         Pregunta pregunta = service.crearPregunta(preguntaNueva.enunciado, preguntaNueva.categoriaId, preguntaNueva.opciones);
@@ -44,7 +44,8 @@ public class PreguntaController {
 
         return ResponseEntity.ok(preguntaNueva);
 
-    }
+    }*/
+
  }
     
 
