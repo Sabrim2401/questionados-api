@@ -44,7 +44,7 @@ public class PreguntaController {
 
         return ResponseEntity.ok(preguntaNueva);
 
-    }*/
+    }
 
  }
     
